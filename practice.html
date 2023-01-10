@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" typ="text/css">
+
+    <style>
+         .myGrid{
+            display: grid;
+            grid-template-rows: 1fr 2fr;
+            grid-template-columns: 1fr 2fr;
+         } 
+
+         #first{background-color: yellow; text-align: center;}
+         #second{background-color: green; text-align: center;}
+         #third{background-color: blue; text-align: center; padding-top:10px}
+         #fourth{background-color: purple; text-align: center; padding-top:10px}
+    </style>
+</head>
+<body>
+    <div class="myGrid">
+        <div id="first">1번영역</div>
+        <div id="second">2번영역</div>
+        <div id="third">3번영역</div>
+        <div id="fourth">4번영역</div>
+    </div>
+</body>
+</html>
